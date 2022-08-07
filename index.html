@@ -5,45 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>这是一个静态网站</title>
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100vh;
-        margin: 0px;
-        align-items: stretch;
-      }
-    </style>
   </head>
 
   <body>
     <!-- 头像栏 -->
-    <div
-      style="
-        background-color: #f1f1f1;
-        text-align: center;
-        padding: 40px;
-        margin: 0px;
-      "
-    >
+    <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
       <img src="./My Avatar.png" alt="头像" width="100" height="100" />
     </div>
     <!-- 简介栏 -->
     <div
       style="
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 15px auto;
+        line-height: 1.7;
         text-align: center;
-        width: 400px;
-        align-self: center;
-        height: 400px;
-        padding: 10px;
       "
     >
       <h1>帆的网页</h1>
-      <hr />
+      <hr style="max-width: 600px" />
       <h1>Rcent photos</h1>
-      <img src="./1.jpg" alt="最近的照片" width="400" />
-      <p>照片拍摄于<b>2022.07.06</b></p>
+      <img
+        style="height: auto; width: auto\9; width: 100%; max-width: 600px"
+        src="./Rcent photos.jpg"
+        alt="最近的照片"
+        width="400"
+      />
+      <p>照片拍摄于<b>2022.08.05</b></p>
+    </div>
+    <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
+      <p style="font-size: 15px">我的静态网站</p>
+      <a
+        style="color: #0e2acc; text-decoration: none"
+        href="https://www.midorg.com/"
+        >&#8594;学习来源&#8592;</a
+      >
     </div>
   </body>
 </html>
